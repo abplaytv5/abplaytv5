@@ -71,6 +71,11 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
+            <a href="tel:+18338147663">
+              <Button variant="outline" className="btn-outline-hero">
+                📞 (833) 814-7663
+              </Button>
+            </a>
             <Link to="/services" onClick={handleNavigation}>
               <Button className="btn-hero">
                 Start Free Trial
@@ -108,6 +113,11 @@ const Header = () => {
               ))}
               <hr className="border-border my-3" />
               <div className="px-3 space-y-3">
+                <a href="tel:+18338147663">
+                  <Button variant="outline" className="btn-outline-hero w-full">
+                    📞 Call (833) 814-7663
+                  </Button>
+                </a>
                 <Link to="/services">
                   <Button className="btn-hero w-full">
                     Start Free Trial

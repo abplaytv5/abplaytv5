@@ -53,10 +53,20 @@ const Footer = () => {
               </div>
               <span className="text-xl font-bold text-gradient">Abplay TV</span>
             </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+            <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Premium streaming entertainment platform owned and operated by AB Textiles. 
               Experience unlimited movies, shows, and live TV anywhere, anytime.
             </p>
+            
+            {/* Contact Info */}
+            <div className="mb-6 space-y-2">
+              <p className="text-sm text-muted-foreground">
+                📞 <a href="tel:+18338147663" className="text-primary hover:text-primary/80 transition-colors">(833) 814-7663</a>
+              </p>
+              <p className="text-sm text-muted-foreground">
+                ✉️ <a href="mailto:abplaytv5@gmail.com" className="text-primary hover:text-primary/80 transition-colors">abplaytv5@gmail.com</a>
+              </p>
+            </div>
             
             {/* Social Links */}
             <div className="flex space-x-4">

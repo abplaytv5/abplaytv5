@@ -753,12 +753,20 @@ const Home = () => {
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Join millions of viewers and discover your next favorite show today
             </p>
-            <Link to="/services">
-              <Button className="btn-hero text-xl px-12 py-6">
-                <Play className="w-6 h-6 mr-3" />
-                Start Your Free Trial
-              </Button>
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link to="/services">
+                <Button className="btn-hero text-xl px-12 py-6">
+                  <Play className="w-6 h-6 mr-3" />
+                  Start Your Free Trial
+                </Button>
+              </Link>
+              <span className="text-muted-foreground text-sm">or</span>
+              <a href="tel:+18338147663">
+                <Button variant="outline" className="btn-outline-hero text-lg px-8 py-4">
+                  📞 Call (833) 814-7663
+                </Button>
+              </a>
+            </div>
             <p className="text-muted-foreground mt-4">
               No commitment • Cancel anytime • Instant access
             </p>

@@ -58,8 +58,8 @@ const Contact = () => {
       icon: Phone,
       title: "Phone Support", 
       description: "Mon-Fri 9AM-6PM EST",
-      contact: "+1 (555) 123-4567",
-      action: "tel:+15551234567"
+      contact: "(833) 814-7663",
+      action: "tel:+18338147663"
     },
     {
       icon: MessageSquare,
@@ -82,19 +82,19 @@ const Contact = () => {
       city: "New York",
       address: "123 Streaming Ave, Suite 100",
       zipcode: "New York, NY 10001",
-      phone: "+1 (555) 123-4567"
+      phone: "(833) 814-7663"
     },
     {
       city: "Los Angeles", 
       address: "456 Media Blvd, Floor 15",
       zipcode: "Los Angeles, CA 90210",
-      phone: "+1 (555) 987-6543"
+      phone: "(833) 814-7663"
     },
     {
       city: "London",
       address: "789 Tech Street, Level 8",
       zipcode: "London, UK SW1A 1AA",
-      phone: "+44 20 7123 4567"
+      phone: "(833) 814-7663"
     }
   ];
 
