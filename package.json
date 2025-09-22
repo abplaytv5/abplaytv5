@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://abplaytv5.github.io/abplaytv/",
+  "homepage": "https://abplaytv5.github.io/abplaytv5/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
