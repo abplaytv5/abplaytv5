@@ -2,18 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { MemoryRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Features from "./pages/Features";
-import Customize from "./pages/Customize";
-import Devices from "./pages/Devices";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Terms from "./pages/Terms";
-import Privacy from "./pages/Privacy";
-import Refund from "./pages/Refund";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -22,7 +11,11 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <Home />
+      <div style={{ padding: '20px', backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
+        <h1 style={{ color: 'black', fontSize: '2rem' }}>Abplay TV Loading...</h1>
+        <p style={{ color: 'black' }}>If you see this, React is working!</p>
+        <Home />
+      </div>
     </TooltipProvider>
   </QueryClientProvider>
 );
