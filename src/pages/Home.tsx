@@ -182,10 +182,7 @@ const Home = () => {
             </div>
           </div>
           <p className="text-gray-300 text-sm mb-4">{item.genre}</p>
-          <Button size="sm" className="btn-hero">
-            <Play className="w-4 h-4 mr-2" />
-            Watch Now
-          </Button>
+          {/* Watch Now button intentionally removed */}
         </div>
       </Card>
     </div>
@@ -226,9 +223,9 @@ const Home = () => {
               <AnimatedSection>
                 <div className="mb-6 lg:mb-8">
                   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 lg:mb-6 leading-tight">
-                    "The best live TV streaming service overall"
+                    All your favorite live games. One place.
                   </h1>
-                  <p className="text-white/90 text-lg md:text-xl font-medium">- CNET</p>
+                  <p className="text-white/90 text-lg md:text-xl font-medium">Never miss a touchdown, field goal, or game-changing play</p>
                 </div>
                 
                 <div className="space-y-4 lg:space-y-5">
@@ -258,18 +255,14 @@ const Home = () => {
             {/* Right Side - Promotional Cards */}
             <div className="lg:order-2 w-full space-y-4 md:space-y-6 flex flex-col justify-center">
               <AnimatedSection delay={200}>
-                {/* NFL Promotion Card */}
+                {/* Sports Promotion Card */}
                 <div className="bg-gradient-to-r from-green-800/95 to-brown-800/95 backdrop-blur-sm rounded-xl md:rounded-2xl p-5 md:p-6 lg:p-8 text-white relative overflow-hidden min-h-[160px] md:min-h-[180px]">
                   <div className="absolute right-4 top-4">
                     <div className="w-10 h-10 md:w-12 md:h-12 bg-white/20 rounded-lg flex items-center justify-center">
-                      <div className="w-6 h-6 md:w-8 md:h-8 bg-gradient-to-br from-red-500 to-blue-600 rounded flex items-center justify-center text-white text-xs font-bold">
-                        NFL
-                      </div>
+                      <div className="w-6 h-6 md:w-8 md:h-8 bg-gradient-to-br from-red-500 to-blue-600 rounded flex items-center justify-center text-white text-xs font-bold">TV</div>
                     </div>
                   </div>
-                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-4 pr-16 leading-tight">
-                    Get the most live NFL games in one place with Abplay TV and the NFL Sunday Ticket add-on
-                  </h3>
+                  <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-4 pr-16 leading-tight">Watch every team, every Sunday with exclusive out-of-market games</h3>
                   <Link to="/services" onClick={handleNavigation} className="block">
                     <Button className="bg-blue-600 hover:bg-blue-700 text-white px-5 md:px-6 py-3 rounded font-medium text-sm md:text-base transition-colors shadow-lg">
                       LEARN MORE
@@ -337,16 +330,6 @@ const Home = () => {
               ))}
             </div>
           </div>
-
-          <AnimatedSection delay={300}>
-            <div className="text-center mt-12">
-              <Link to="/features" onClick={handleNavigation}>
-                <Button className="btn-hero">
-                  View All Channels
-                </Button>
-              </Link>
-            </div>
-          </AnimatedSection>
         </div>
       </section>
 
@@ -471,12 +454,7 @@ const Home = () => {
                     </div>
                   ))}
                 </div>
-                
-                <Link to="/devices">
-                  <Button className="btn-hero">
-                    Download Apps
-                  </Button>
-                </Link>
+                {/* Download Apps button intentionally removed */}
               </div>
             </AnimatedSection>
 

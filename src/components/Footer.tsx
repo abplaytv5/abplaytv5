@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Play, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { Play, Facebook, Twitter, Instagram } from "lucide-react";
 
 const Footer = () => {
   const handleNavigation = () => {
@@ -37,7 +37,6 @@ const Footer = () => {
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Youtube, href: "#", label: "YouTube" },
   ];
 
   return (
