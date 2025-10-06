@@ -230,11 +230,11 @@ const Home = () => {
                 
                 <div className="space-y-4 lg:space-y-5">
                   <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-                    <Link to="/services" onClick={handleNavigation} className="block">
+                    <a href="#" className="block">
                       <Button className="bg-blue-600 hover:bg-blue-700 text-white text-lg md:text-xl px-6 md:px-10 py-4 md:py-6 rounded-lg font-semibold transition-colors w-full sm:w-auto min-w-[200px]">
                         TRY 10 DAYS FOR $0
                       </Button>
-                    </Link>
+                    </a>
                     
                     <div className="bg-red-600 text-white px-4 py-2 rounded text-sm font-bold inline-block self-start">
                       LIMITED TIME OFFER
@@ -263,11 +263,11 @@ const Home = () => {
                     </div>
                   </div>
                   <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-4 pr-16 leading-tight">Watch every team, every Sunday with exclusive out-of-market games</h3>
-                  <Link to="/services" onClick={handleNavigation} className="block">
+                  <a href="#" className="block">
                     <Button className="bg-blue-600 hover:bg-blue-700 text-white px-5 md:px-6 py-3 rounded font-medium text-sm md:text-base transition-colors shadow-lg">
                       LEARN MORE
                     </Button>
-                  </Link>
+                  </a>
                 </div>
               </AnimatedSection>
 
@@ -288,11 +288,11 @@ const Home = () => {
                   <p className="text-white/90 mb-5 text-sm md:text-base pr-12 leading-relaxed">
                     Premium channels, sports packages, and more to customize your streaming experience
                   </p>
-                  <Link to="/customize" onClick={handleNavigation} className="block">
+                  <a href="#" className="block">
                     <Button className="bg-purple-600 hover:bg-purple-700 text-white px-5 md:px-6 py-3 rounded font-medium text-sm md:text-base transition-colors shadow-lg">
                       EXPLORE ADD-ONS
                     </Button>
-                  </Link>
+                  </a>
                 </div>
               </AnimatedSection>
             </div>
