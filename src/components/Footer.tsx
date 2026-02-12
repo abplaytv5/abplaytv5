@@ -16,12 +16,12 @@ const Footer = () => {
     support: [
       { name: "FAQ", path: "/faq" },
       { name: "Contact Us", path: "/contact" },
-      { name: "Disclaimer", path: "/disclaimer" },
     ],
     legal: [
       { name: "Terms of Service", path: "/terms" },
       { name: "Privacy Policy", path: "/privacy" },
       { name: "Refund Policy", path: "/refund" },
+      { name: "Disclaimer", path: "/disclaimer" },
     ],
   };
 
@@ -34,11 +34,16 @@ const Footer = () => {
   return (
     <footer className="bg-card border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        {/* Independent Service Disclosure - Above Footer Content */}
-        <div className="mb-8 pb-8 border-b border-border">
+        {/* Independent Service Disclosure & Disclaimer - Above Footer Content */}
+        <div className="mb-8 pb-8 border-b border-border space-y-4">
           <div className="bg-accent/30 border border-primary/20 rounded-lg p-6">
             <p className="text-sm text-center leading-relaxed text-foreground">
               <strong className="font-semibold">Important Disclosure:</strong> HorizonCast TV is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We provide educational guidance and support only. All trademarks belong to their respective owners.
+            </p>
+          </div>
+          <div className="bg-amber-500/10 border border-amber-500/30 rounded-lg p-4">
+            <p className="text-xs text-center leading-relaxed text-foreground">
+              <strong className="font-semibold">Disclaimer:</strong> The information provided on this website is for educational purposes only. We make no warranties regarding accuracy or completeness. Service availability, pricing, and features are determined by individual providers. Users are responsible for verifying all information independently. Our separate service fees do not include provider charges. For complete details, please review our <Link to="/disclaimer" className="text-primary hover:underline font-medium">full disclaimer</Link>.
             </p>
           </div>
         </div>
@@ -116,7 +121,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} HorizonCast TV. Independent Service Assistance Platform. All rights reserved.
+              © {new Date().getFullYear()} HorizonCast TV. Owned and operated by AB TEXTILES. All rights reserved.
             </div>
             
             <div className="flex items-center space-x-6">
